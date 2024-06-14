@@ -1,0 +1,21 @@
+// qv Sample Test No. 1: bubble sort
+fun main () {              // Function definition
+    var list: char[5];
+    var i : int;
+    var j : int;
+    var tmp : char;
+    var length : int = 5;
+    list = {'1','3','e','\\','2'};
+    for(i=0;i<length;i=i+1){
+        for(j=0;j<length-i;j=j+1){
+            if(list[j+1]>list[j]){
+                tmp = list[j+1];
+		list[j+1] = list[j];
+		list[j] = tmp;
+            }
+        }
+    }
+    for(i=0;i<length;i=i+1){
+        println(list[i]);
+    }
+}

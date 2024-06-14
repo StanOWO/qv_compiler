@@ -1,0 +1,8 @@
+fun main () {
+	var i: char = 'A';
+    print(i);
+    print("\n");
+	i = i + 10;
+	print(i);
+    print("\n");
+}

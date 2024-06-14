@@ -1,0 +1,8 @@
+fun main () {
+	val i: real;
+	i = 3.1;
+    print(i);
+    i = 1.5;
+    print(i)
+	print("\n");
+}

@@ -1,0 +1,8 @@
+fun main () {
+	var i: bool = true;
+    print(i);
+    print("\n");
+	i = false;
+	print(i);
+    print("\n");
+}
